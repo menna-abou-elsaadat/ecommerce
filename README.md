@@ -1,3 +1,4 @@
+
 1- git clone repo
 2- run composer update
 3- create database and update .env database configurations
