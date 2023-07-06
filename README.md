@@ -16,6 +16,7 @@ Adding products Cycle
 ========================================================================================
 
 Database Structure
+
 1- users table (id, name, email, password, role (user|admin))
 
 2- Products table (id, name, price, image_name, quantity, description, uuid)
