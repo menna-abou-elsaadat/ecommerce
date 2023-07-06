@@ -30,6 +30,6 @@ class RegisterForm extends Component
         $user = UserService::store($validatedData['name'],$validatedData['email'],$validatedData['password']);
 
         Auth::login($user);
-        return redirect()->to('/');
+        return redirect()->to('/products/table');
     }
 }

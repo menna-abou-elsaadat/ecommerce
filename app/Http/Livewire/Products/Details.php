@@ -4,6 +4,8 @@ namespace App\Http\Livewire\Products;
 
 use Livewire\Component;
 use App\Models\Product;
+use App\Services\CartService;
+use Auth;
 
 class Details extends Component
 {
@@ -37,8 +39,9 @@ class Details extends Component
         
     }
 
-    public function AddToCart()
+    public function addToCart()
     {
-        
+        $cart_product = CartService::addProduct($this->product,$this->quantity,Auth::user());
+        session()->flash('message', 'cart contains '.$cart_product->quantity.' of this Product.');
     }
 }

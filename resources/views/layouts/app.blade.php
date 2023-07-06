@@ -21,6 +21,15 @@
                         </a>
                         <ul class="navbar-right d-flex align-items-center mb-0 list-unstyled">
                             <li>
+                                <a href="/products/form" class="btn btn-primary text-light text-uppercase w-100">Add Product</a>
+                            </li>
+                            <li>
+                                <a href="/products/table" class="btn btn-primary text-light text-uppercase w-100">Products List</a>
+                            </li>
+                            <li>
+                                <a href="/cart/details" class="btn btn-primary text-light text-uppercase w-100">View Cart</a>
+                            </li>
+                            <li>
                                 <a href="/logout" class="btn bg-secondary text-light text-uppercase w-100">logout</a>
                             </li>
                         </ul>

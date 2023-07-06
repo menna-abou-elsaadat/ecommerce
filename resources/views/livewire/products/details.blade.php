@@ -23,5 +23,10 @@
         <input type="number" name="" value="{{$quantity}}" wire:model="quantity">
         <button wire:click="increment">+</button>
         <button wire:click="addToCart">Add To Cart</button>
+         @if (session()->has('message'))
+        <div class="alert alert-success">
+            {{ session('message') }}
+        </div>
+        @endif
     </div>
 </div>
