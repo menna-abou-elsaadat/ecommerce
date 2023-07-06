@@ -4,11 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>ecommerce</title>
-        <link rel="stylesheet" href="/assets/cssbundle/dataTables.min.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/avio-style.css">
-        <link href="/assets/general_css.css" rel="stylesheet" />
-        <link rel="stylesheet" href="/assets/plugins/fancy-file-uploader/fancy_fileupload.css" type="text/css" media="all" />
-        <!-- Theme included stylesheets -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         
         @yield('style')
         @livewireStyles
@@ -45,16 +42,7 @@
             <!--  -->
             <div class="page-body page-layout-1">
                 <div class="container-fluid">
-                    <script src="/assets/js/plugins.js"></script>
-                    <script src="/assets/js/theme.js"></script>
-                    <script src="/assets/js/bundle/apexcharts.bundle.js"></script>
-                    <script src="/assets/js/bundle/dataTables.bundle.js"></script>
-                    <script src="/assets/scripts.js"></script>
-                    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-                    <script type="text/javascript" src="/assets/plugins/fancy-file-uploader/jquery.ui.widget.js"></script>
-                    <script type="text/javascript" src="/assets/plugins/fancy-file-uploader/jquery.fileupload.js"></script>
-                    <script type="text/javascript" src="/assets/plugins/fancy-file-uploader/jquery.iframe-transport.js"></script>
-                    <script type="text/javascript" src="/assets/plugins/fancy-file-uploader/jquery.fancy-fileupload.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
                     @yield('script')
                     <!--  -->
                     <div class="">

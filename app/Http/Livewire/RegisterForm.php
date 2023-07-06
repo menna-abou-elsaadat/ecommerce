@@ -16,7 +16,7 @@ class RegisterForm extends Component
     {
         return view('livewire.register-form')
                 ->extends('layouts.login')
-                ->section('content');;
+                ->section('content');
     }
 
     public function submit()

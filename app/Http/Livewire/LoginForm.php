@@ -29,7 +29,7 @@ class LoginForm extends Component
         $user = User::where('email',$validatedData['email'])->first();
         if ($user && Hash::check($validatedData['password'], $user->password)) {
                 Auth::login($user);
-                return redirect()->to('/');
+                return redirect()->to('/products/form');
             
             }
 

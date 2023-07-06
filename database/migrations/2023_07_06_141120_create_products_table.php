@@ -18,6 +18,7 @@ return new class extends Migration
             $table->float('price');
             $table->string('uuid');
             $table->string('image_name');
+            $table->integer('quantity');
             $table->timestamps();
         });
     }
