@@ -5,13 +5,14 @@
 5- run project you can user admin user or use register link to create a new user
 
 Adding products Cycle
-======================
+
 1- user add product button to add products to the app
 2- Go to products list to view all the products
 3- click on details link from the product row to view product details
 4- From product details you can add the desired quantity of product to the cart
 5- you can view the cart from view cart button
-6- you can update product quantity or remove a product from the cart page 
+6- you can update product quantity or remove a product from the cart page
+
 ========================================================================================
 
 Database Structure
